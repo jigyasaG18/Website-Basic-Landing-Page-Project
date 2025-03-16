@@ -36,3 +36,5 @@ Exciting updates are on the horizon! Here are some features I plan to add:
 
 ![image](https://github.com/user-attachments/assets/dd02ed2b-8c31-4c27-88f8-b402d227d1f4)
 
+![image](https://github.com/user-attachments/assets/775878b4-a6e1-4357-abf6-5ee85bc668d8)
+
