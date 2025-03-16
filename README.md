@@ -34,7 +34,6 @@ Exciting updates are on the horizon! Here are some features I plan to add:
 - **Dark Theme Option**: Cater to user preferences for a more personalized experience.
 - **Expanded Gallery**: Including more stunning images and a lightbox feature for individual images.
 
-![image](https://github.com/user-attachments/assets/dd02ed2b-8c31-4c27-88f8-b402d227d1f4)
-
-![image](https://github.com/user-attachments/assets/775878b4-a6e1-4357-abf6-5ee85bc668d8)
-
+![1](https://github.com/user-attachments/assets/d4708f29-70e8-4671-acf3-c2520247b101)
+![2](https://github.com/user-attachments/assets/8be67025-3e1e-4d8f-8f65-f5eb041d350e)
+![3](https://github.com/user-attachments/assets/266a5d44-1c15-4809-bd8a-555e49ffd368)
