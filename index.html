@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All about Yoga | SheCodes Basics Add-on Project</title>
+</head>
+<style>
+ 
+  body {
+    background-color: #f9f7fe;
+    color: #272142;
+    font-family: "Cerebri Sans";
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#bdbfe3 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+  }
+  
+  body.dark {
+    /* filter: invert(1); */
+    background-image: radial-gradient(#271d3c 0.5px, #100d18 0.5px);
+  }
+  
+  .change-theme-button {
+    text-align: center;
+  }
+  
+  body.dark .container{
+    background:  #1c1824;
+  }
+  
+  body.dark h2, body.dark p{
+    color:  #d3cde0;
+  }
+  
+  
+  h1,
+  h2 {
+    text-align: center;
+    margin: 15px 0;
+    font-weight: bold;
+  }
+  
+  h1 {
+    color: #272142;
+    font-size: 38px;
+    line-height: 48px;
+  }
+  body.dark h1 {
+    color: #d3cde0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #272142;
+    font-family: "PT Mono", monospace;
+    line-height: 27px;
+  }
+  
+  a {
+    color: #885df1;
+  }
+  
+  body.dark a {
+    color: #d3cde0;
+  }
+  
+  a:hover {
+    color: #ca88c3;
+    text-decoration: none;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  img {
+    border-radius: 12px;
+    max-width: 100%;
+  
+  }
+  
+  body.dark .change-theme-button {
+    background: #1c1824;
+    color: #fff;
+  }
+  
+  body.dark .change-theme-button:hover {
+    background: #f15dcc;
+  }
+  
+  .change-theme-button {
+    display: block;
+    background: #f15dbb;
+    color: white;
+    font-size: 16px;
+    font-family: "Cerebri Sans";
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+    margin:  0 auto;
+  }
+  
+  .change-theme-button:hover {
+    opacity: .9;
+  }
+  
+  body.dark .change-theme-button:hover {
+    opacity: .9;
+  }
+  
+  .order-button {
+    background: #f15dc0;
+    color: white;
+    display: block;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 50px;
+    border: none;
+    font-size: 24px;
+    font-family: "Cerebri Sans";
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+    border:  1px solid transparent;
+  }
+  
+  .order-button:hover {
+    opacity: 90%;
+    background: #fff;
+    color: #e05df1 ;
+    border: 1px solid #f15ddd;
+  }
+  
+  small {
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-family: "PT Mono", monospace;
+  }
+  
+  .container {
+    box-shadow: 0px 30px 50px rgba(57, 48, 90, 0.1);
+    margin: 50px auto;
+    background: #fff;
+    max-width: 550px;
+    padding: 40px;
+    border-radius: 16px;
+  }
+  
+  body.dark .container {
+    box-shadow: 0px 30px 50px rgba(4, 2, 12, 0.5);
+  }
+  
+  .description {
+    padding-bottom: 20px;
+  }
+  
+  .logo,
+  .logo-light {
+    max-width: 200px;
+    display: block;
+    margin: 40px auto;
+  }
+  
+  .logo-light {
+    display: none;
+  }
+  
+  body.dark .logo-light {
+    display: block;
+  }
+  body.dark .logo {
+    display: none;
+  }
+  
+  .yogurt-picture {
+    margin: 15px 0;
+    background-origin: 10px 10px;
+    transition:  all 150ms ease-in-out;;
+  
+  }
+  
+  .yogurt-picture:hover {
+    transform: scale(1.5);
+  
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:  20px;
+  }
+  
+  .grid img {
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+  }
+  
+</style>
+<body class="dark">
+   
+    <button id="change-theme-button" class="change-theme-button">
+      Change theme
+    </button>
+  <div class="container">
+    <h1>Yoga for Everyone🧎‍♀️</h1>
+    <h2>When you feel good it shows😎</h2>
+    <a href="https://www.nccih.nih.gov/health/yoga-what-you-need-to-know" target="_blank">
+      <img src="https://i.pinimg.com/originals/0d/95/eb/0d95ebb01ce3eb89b1cbb63a74662420.jpg" class="yoga art" alt="yoga" />
+    </a>
+    <div class="grid">
+      <img src="https://i.pinimg.com/736x/36/d2/7e/36d27ed1fa42be12316a79248d1f01b0.jpg " class="picture-grid" alt="Yoga Pose" />
+      <img src="https://i.pinimg.com/736x/d6/c8/02/d6c8024f9fa3dbf8f6f459f0b3b90e48.jpg " class="picture-grid" alt="Yoga" />
+
+      <img src="https://i.pinimg.com/736x/d1/cb/25/d1cb2564016ff74a4c226fc08818feb2.jpg" class="picture-grid" alt="posture" />
+      <img src="https://i.pinimg.com/736x/6c/d9/38/6cd93893819e5bf90ca655f42d6a603f.jpg" class="picture-grid" alt="yoga" />
+    </div>
+    
+    <div class="description">
+      <p>
+        Yoga as therapy is the use of yoga as exercise, consisting mainly of postures called asanas, as a gentle form of exercise and relaxation applied specifically with the intention of improving health. This form of yoga is widely practised in classes, and may involve meditation, imagery, breath work (pranayama) and calming music as well as postural yoga.[1]
+        <a href="https://en.wikipedia.org/wiki/Yoga">
+          <strong> Read on Wikipedia </strong>
+        </a>
+      </p>
+    </div>
+
+    <button id="order-button" class="order-button">Get in touch for yoga exercise</button>
+
+
+    <p>
+      <small>
+        Coded by 👩‍💻 Jigyasa with HTML, CSS and JavaScript
+      </small>
+    </p>
+
+  </div>
+
+  <script>
+    function order() {
+      let quanty = prompt("Do you enjoy yoga?");
+      let name = prompt("What is your first name?");
+      let email = prompt("What is your email?");
+
+      alert(
+        "Thanks " +
+        name +
+        "! I'll be in touch soon with more details. Feel free to contact me if you have any questions."
+        );
+    }
+
+    function toggleTheme() {
+      if (theme === "light") {
+        theme = "dark";
+        document.querySelector("body").classList.add("dark");
+      } else {
+        theme = "light";
+        document.querySelector("body").classList.remove("dark");
+      }
+    }
+
+
+
+    let button = document.querySelector("#order-button");
+    button.addEventListener("click", order);
+
+
+
+    let theme = "dark";
+    let themeButton = document.querySelector("#change-theme-button");
+    themeButton.addEventListener("click", toggleTheme)
+  </script>
+</body>
+</html>
